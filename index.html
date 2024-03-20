@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>INTEGRADORA - Tienda Online</title>
+
+<style>
+   
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #faf1f1;
+    font-weight: bold;
+}
+
+.main-banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #1a1818;
+    text-align: center;
+    padding: 50px;
+    height: 400px; /* Ajusta la altura según sea necesario */
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #1a1616;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #f0e6e6;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+
+<body>
+    <header>
+        <h1>INTEGRADORA</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="ropa-natacion.html">Ropa y Natación</a></li>
+                <li><a href="decoracion-regalos.html">Decoración y Regalos</a></li>
+                <li><a href="mobiliario-oficina.html">Mobiliario de Oficina</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section class="main-banner">
+        <div class="banner-content">
+             <h2>Bienvenido a INTEGRADORA</h2>
+             <p>Descubre nuestra amplia variedad de productos para cada estilo de vida.</p>
+             <a href="#" class="cta-button">Explorar Tiendas</a>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <img src="producto1.jpg" alt="Producto 1">
+        <div class="product-info">
+            <h2>Ropa de Natación</h2>
+            <h3>Producto 1</h3>
+            <p>Descripción detallada del Producto 1. Ideal para nadadores de todos los niveles.</p>
+            <p>Precio: $49.99</p>
+            <a href="#" class="buy-button">Comprar ahora</a>
+        </div>
+
+          <!-- Características del producto -->
+        <ul class="product-features">
+            <li>Tela resistente al agua</li>
+            <li>Costuras reforzadas</li>
+            <li>Diseño moderno</li>
+        </ul>
+         <!-- Opciones de tamaño y color -->
+         <div class="product-options">
+            <label for="size">Tamaño:</label>
+            <select id="size">
+                <option value="small">Pequeño</option>
+                <option value="medium">Mediano</option>
+                <option value="large">Grande</option>
+            </select>
+
+            <label for="color">Color:</label>
+            <select id="color">
+                <option value="blue">Azul</option>
+                <option value="black">Negro</option>
+                <option value="red">Rojo</option>
+            </select>
+        </div>
+
+        <!-- Botón de compra -->
+        <a href="#" class="buy-button">Comprar ahora</a>
+    </div>
+</section>
+
+    </section>
+    <footer>
+        <p>&copy; 2024 INTEGRADORA - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
